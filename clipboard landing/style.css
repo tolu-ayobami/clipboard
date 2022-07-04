@@ -265,11 +265,11 @@ footer{
 
 .scrolled{
   
-  animation: all 1s ease-in-out;      
+  animation: all 2s ease-in-out;      
 }
 
 .scroll{
-  animation: al 2s ease-in-out;
+  animation: al 3.5s ease-in-out;
 }
 
 
@@ -317,13 +317,13 @@ footer{
 
 @keyframes a{
   0%{
-      transform: translateY(100px);
+      transform: translateX(100px);
       opacity: 0;
   }
 
 
   100%{
-      transform: translateY(0);
+      transform: translateX(0);
       opacity: 1;
   }
 }
